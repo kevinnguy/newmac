@@ -26,4 +26,5 @@ brew cask install sourcetree
 brew cask install steam
 brew cask install vlc
 brew cask install transmission
+brew cask install audacity
 brew cask cleanup
