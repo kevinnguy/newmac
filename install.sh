@@ -27,4 +27,7 @@ brew cask install steam
 brew cask install vlc
 brew cask install transmission
 brew cask install audacity
+brew cask install ifunbox
+brew cask install gimp
+brew cask install the-unarchiver
 brew cask cleanup
