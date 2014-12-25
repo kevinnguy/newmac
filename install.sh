@@ -30,4 +30,5 @@ brew cask install audacity
 brew cask install ifunbox
 brew cask install gimp
 brew cask install the-unarchiver
+brew cask install imageoptim
 brew cask cleanup
