@@ -10,7 +10,6 @@ brew install tig
 # Install cask
 brew install brew-cask
 brew cask install google-chrome
-brew cask install mailbox
 brew cask install slack
 brew cask install spotify
 brew cask install sketch
