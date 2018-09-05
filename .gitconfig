@@ -1,0 +1,8 @@
+[push]
+	default = simple
+[user]
+	name = Kevin Nguy
+[alias]
+	cm = commit -m
+	cam = !git add -A && git commit -am
+	amend = commit --amend --no-edit
