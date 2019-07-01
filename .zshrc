@@ -22,7 +22,7 @@ echoco () { echo "$ $@"; }
 away () {defaults -currentHost write com.apple.ScreenSaver.Basic MESSAGE $@; open -a ScreenSaverEngine}
 
 ### aliases
-alias zshconfig="echoco 'atom ~/.zshrc'; atom ~/.zshrc"
+alias zshconfig="echoco 'open ~/.zshrc'; open ~/.zshrc"
 
 # reload terminal
 alias reload="echoco '. ~/.zshrc'; . ~/.zshrc"
@@ -34,6 +34,7 @@ alias llr="echoco 'ls -ahloR'; ls -ahloR"
 alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 
 # git
+# gl () { tig $@ }
 alias gl="echoco 'tig --all'; tig --all"
 alias gb="echoco 'git branch -a'; git branch -a"
 alias gs="echoco 'git status'; git status"
@@ -43,5 +44,7 @@ alias gds="echoco 'git diff --abbrev-commit --oneline -U1 --cached --color | dif
 # diff
 alias diff="echoco 'icdiff'; icdiff"
 
-# z plugin
-alias cdd="z"
+export REACT_EDITOR=code
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
