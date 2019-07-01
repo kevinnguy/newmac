@@ -10,16 +10,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew bundle install
 brew cask cleanup
 
-# Install zsh
+# Install zsh and plugins
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-# After install, add plugins=(zsh-autosuggestions) to list of plugins in oh-my-zsh
-
 git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-# After install, add plugins=(zsh-syntax-highlighting) to list of plugins in oh-my-zsh
-# After adding plugin, run: source ~/.zshrc
 
-# Copy zsh theme 
+# Copy zsh settings
+cp .zshrc ~/
 cp kevinnguy.zsh-theme ~/.oh-my-zsh/themes
 
