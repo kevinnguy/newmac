@@ -1,5 +1,9 @@
+[core]
+	editor = nano
 [push]
 	default = simple
+[submodule]
+	recurse = true
 [user]
 	name = Kevin Nguy
 [alias]
