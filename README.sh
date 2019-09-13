@@ -22,3 +22,5 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins
 cp .zshrc ~/
 cp kevinnguy.zsh-theme ~/.oh-my-zsh/themes
 
+# install forked programs manually
+echo "Install forked version of Franz: https://github.com/kevinnguy/franz"
