@@ -38,8 +38,8 @@ alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^
 alias gl="echoco 'tig --all'; tig --all"
 alias gb="echoco 'git branch -a'; git branch -a"
 alias gs="echoco 'git status'; git status"
-alias gd="echoco 'git diff --abbrev-commit --oneline -U1 --color | diff-so-fancy'; git diff --abbrev-commit --oneline -U1 --color | diff-so-fancy | less --tabs=1,5 -R"
-alias gds="echoco 'git diff --abbrev-commit --oneline -U1 --cached --color | diff-so-fancy'; git diff --abbrev-commit --oneline -U1 --cached --color | diff-so-fancy | less --tabs=1,5 -R"
+alias gd="echoco 'git diff --abbrev-commit --oneline -U1 --color'; git diff --abbrev-commit --oneline -U1 --color"
+alias gds="echoco 'git diff --abbrev-commit --oneline -U1 --cached --color'; git diff --abbrev-commit --oneline -U1 --cached --color"
 
 # diff
 alias diff="echoco 'icdiff'; icdiff"
