@@ -16,6 +16,10 @@
 	<true/>
 	<key>CloseBookmarksWindowAfterOpening</key>
 	<true/>
+	<key>ClosingTmuxWindowKillsTmuxWindows</key>
+	<true/>
+	<key>ClosingTmuxWindowKillsTmuxWindows_selection</key>
+	<integer>1</integer>
 	<key>Default Bookmark Guid</key>
 	<string>4E43BCE0-52EB-4AC4-AFA3-75BE5BD0E146</string>
 	<key>DimBackgroundWindows</key>
@@ -215,9 +219,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>0 432 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1 514 650 513 0 0 1680 1027 </string>
+	<string>-876 1054 1114 1863 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>170 445 650 513 0 0 1680 1027 </string>
+	<string>-487 1166 1746 1273 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>3 0 1114 1027 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1212,6 +1216,14 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x7a-0x140000</key>
+				<dict>
+					<key>Action</key>
+					<integer>25</integer>
+					<key>Text</key>
+					<string>Detach
+tmux.Detach</string>
+				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
 					<key>Action</key>
@@ -1615,7 +1627,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{715, 718}</string>
+		<string>{398, 794}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
 	<true/>
@@ -1628,7 +1640,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>1B67643A-503E-4D69-B444-7D50687C8EED</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>22</integer>
+	<integer>24</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
