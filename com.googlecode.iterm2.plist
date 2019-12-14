@@ -16,6 +16,10 @@
 	<true/>
 	<key>CloseBookmarksWindowAfterOpening</key>
 	<true/>
+	<key>ClosingTmuxTabKillsTmuxWindows</key>
+	<true/>
+	<key>ClosingTmuxTabKillsTmuxWindows_selection</key>
+	<integer>1</integer>
 	<key>ClosingTmuxWindowKillsTmuxWindows</key>
 	<true/>
 	<key>ClosingTmuxWindowKillsTmuxWindows_selection</key>
@@ -211,17 +215,17 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>859 2243 445 103 -1119 1050 3360 1867 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
-	<string>-114 2422 735 382 -879 1050 3360 1867 </string>
+	<string>233 1895 735 382 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 476 620 392 0 0 1680 1027 </string>
+	<string>491 2156 620 392 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>-189 1366 606 469 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>0 432 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-876 1054 1114 1863 -879 1050 3360 1867 </string>
+	<string>0 0 1178 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-487 1166 1746 1273 -879 1050 3360 1867 </string>
+	<string>161 1647 650 513 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>3 0 1114 1027 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1607,12 +1611,13 @@ tmux.Detach</string>
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.2</string>
-		<string>3.2.9</string>
-		<string>3.3.1</string>
-		<string>3.3.4</string>
-		<string>3.3.3</string>
 		<string>3.3.6</string>
+		<string>3.3.1</string>
+		<string>3.3.3</string>
+		<string>3.3.7</string>
+		<string>3.2.9</string>
+		<string>3.3.2</string>
+		<string>3.3.4</string>
 	</array>
 	<key>NoSyncAutoBurialReveal</key>
 	<true/>
@@ -1622,6 +1627,10 @@ tmux.Detach</string>
 	<true/>
 	<key>NoSyncConfirmRunOpenFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
+	<integer>1</integer>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -1640,7 +1649,7 @@ tmux.Detach</string>
 	<key>NoSyncInstallationId</key>
 	<string>1B67643A-503E-4D69-B444-7D50687C8EED</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>24</integer>
+	<integer>28</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2495,6 +2504,7 @@ tmux.Detach</string>
 	</array>
 	<key>NoSyncSearchHistory2</key>
 	<array>
+		<string>hoth</string>
 		<string>issue</string>
 		<string>product_id</string>
 	</array>
@@ -2535,13 +2545,15 @@ tmux.Detach</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-10-31T21:59:24Z</date>
+	<date>2019-12-06T17:25:26Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<true/>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -2567,6 +2579,6 @@ tmux.Detach</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.7</string>
 </dict>
 </plist>
