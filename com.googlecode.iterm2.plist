@@ -6,6 +6,8 @@
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -168,7 +170,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/github/newmac</string>
+	<string>/Applications</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{799, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -217,13 +219,13 @@
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>233 1895 735 382 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>491 2156 620 392 -879 1050 3360 1867 </string>
+	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>-189 1366 606 469 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>0 432 918 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1178 1027 0 0 1680 1027 </string>
+	<string>-876 1050 2234 1867 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>161 1647 650 513 -879 1050 3360 1867 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1612,6 +1614,7 @@ tmux.Detach</string>
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
+		<string>3.3.8</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.7</string>
@@ -1649,7 +1652,7 @@ tmux.Detach</string>
 	<key>NoSyncInstallationId</key>
 	<string>1B67643A-503E-4D69-B444-7D50687C8EED</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>28</integer>
+	<integer>35</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2498,16 +2501,6 @@ tmux.Detach</string>
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory</key>
-	<array>
-		<string>5000</string>
-	</array>
-	<key>NoSyncSearchHistory2</key>
-	<array>
-		<string>hoth</string>
-		<string>issue</string>
-		<string>product_id</string>
-	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>584915303.33597004</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -2545,11 +2538,13 @@ tmux.Detach</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-06T17:25:26Z</date>
+	<date>2020-02-13T21:42:42Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>4066961647</integer>
 	<key>SUUpdateRelaunchingMarker</key>
-	<false/>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
@@ -2579,6 +2574,6 @@ tmux.Detach</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.8</string>
 </dict>
 </plist>
