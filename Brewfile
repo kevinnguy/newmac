@@ -31,15 +31,19 @@ brew "tmux"
 brew "trace2html"
 brew "watchman"
 brew "yarn"
+brew "youtube-dl"
 brew "lyft/formulae/set-simulator-location"
 cask "android-studio"
 cask "battle-net"
+cask "bitwarden"
+cask "box-drive"
 cask "caprine"
 cask "colorpicker-skalacolor"
 cask "cyberduck"
 cask "daisydisk"
 cask "diffmerge"
 cask "dropbox"
+cask "duet"
 cask "eloston-chromium"
 cask "epic-games"
 cask "figma"
@@ -51,6 +55,7 @@ cask "imagealpha"
 cask "imageoptim"
 cask "insomnia"
 cask "iterm2"
+cask "karabiner-elements"
 cask "nordvpn"
 cask "nosleep"
 cask "notion"
@@ -73,10 +78,16 @@ cask "trailer"
 cask "transmission"
 cask "tunnelblick"
 cask "vagrant-manager"
-cask "visual-studio-code"
 cask "vlc"
+cask "vscodium"
 cask "zeplin"
 mas "Brightness Slider", id: 456624497
+mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
+mas "iMovie", id: 408981434
 mas "Ka-Block!", id: 1335413823
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "uBlock", id: 1385985095
 mas "Xcode", id: 497799835
