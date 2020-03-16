@@ -26,3 +26,6 @@ cp .gitconfig ~/
 
 # install forked programs manually
 echo "Install forked version of Franz: https://github.com/kevinnguy/franz"
+
+# Install karabiner config in safari
+# karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kevinnguy/newmac/master/karabiner.json
