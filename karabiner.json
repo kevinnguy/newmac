@@ -400,7 +400,7 @@
         },
         {
           "from": {
-            "key_code": "[",
+            "key_code": "open_bracket",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -409,10 +409,10 @@
           },
           "to": [
             {
-              "key_code": "left_arrow",
+              "key_code": "open_bracket",
               "modifiers": [
                 "right_command",
-                "right_option"
+                "right_shift"
               ]
             }
           ],
@@ -420,7 +420,7 @@
         },
         {
           "from": {
-            "key_code": "]",
+            "key_code": "close_bracket",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -429,7 +429,7 @@
           },
           "to": [
             {
-              "key_code": "]",
+              "key_code": "close_bracket",
               "modifiers": [
                 "right_command",
                 "right_shift"
