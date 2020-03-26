@@ -182,7 +182,7 @@
             {
               "key_code": "left_arrow",
               "modifiers": [
-                "right_shift",
+                "right_shift"
               ]
             }
           ],
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "description": "Hyper Editor",
+      "description": "Hyper Editor FN",
       "manipulators": [
         {
           "from": {
