@@ -21,7 +21,7 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 cp .zshrc ~/
 cp kevinnguy.zsh-theme ~/.oh-my-zsh/themes
 
-# Copy gitconfig
+# Copy gitconfig 
 cp .gitconfig ~/
 
 # install forked programs manually
@@ -29,4 +29,4 @@ echo "Install forked version of Franz: https://github.com/kevinnguy/franz"
 
 # Install karabiner config in safari
 # karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kevinnguy/newmac/master/karabiner.json
-# karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kevinnguy/newmac/7f3a8a742abc17b1a5cc3ef3e14ef7cb19480c20/karabiner.json
+# karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kevinnguy/newmac/774726820cf71f959ab470b6fd01fd81815a593d/karabiner.json
