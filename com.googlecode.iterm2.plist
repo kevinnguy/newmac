@@ -217,7 +217,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>586 528 620 392 0 0 1792 1097 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3 0 890 1097 0 0 1792 1097 </string>
+	<string>3 0 1402 1097 0 0 1792 1097 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1604,6 +1604,10 @@ tmux.Detach</string>
 		<string>3.3.7</string>
 		<string>3.3.9</string>
 	</array>
+	<key>NoSyncConfirmRunOpenFile</key>
+	<true/>
+	<key>NoSyncConfirmRunOpenFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
@@ -1614,7 +1618,11 @@ tmux.Detach</string>
 	<key>NoSyncInstallationId</key>
 	<string>E07C60C9-3634-43E3-8147-07420B8B5926</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>11</integer>
+	<integer>16</integer>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>598086991.84541202</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2364,7 +2372,7 @@ tmux.Detach</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-30T02:01:05Z</date>
+	<date>2020-05-05T03:15:01Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -2372,7 +2380,7 @@ tmux.Detach</string>
 	<key>ShowBookmarkName</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
