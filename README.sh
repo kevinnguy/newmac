@@ -8,6 +8,8 @@ defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 # Turn off hyperlink auditing
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2HyperlinkAuditingEnabled -bool false
 
+# To bundle brew installs: brew bundle dump
+
 # Install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew bundle install
