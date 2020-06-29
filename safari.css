@@ -1,3 +1,16 @@
 html {
   background-color: rgb(245, 245, 245) !important;
 }
+
+body {
+  background-color: rgb(245, 245, 245) !important;
+}
+
+/* Github */
+#readme {
+  background-color: rgb(245, 245, 245) !important;
+}
+
+.markdown-body .highlight pre {
+  background-color: #fff !important;
+}
