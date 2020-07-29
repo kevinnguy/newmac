@@ -1,6 +1,7 @@
 :root {
   --main-bg-color:rgb(245, 241, 235);
   --main-text-color: #212529;
+  --youtube-bg-color: #000000;
 }
 
 html {
@@ -16,6 +17,19 @@ article {
   background-color: var(--main-bg-color) !important; 
   color: var(--main-text-color) !important;
 }
+
+/* General */
+
+/* 
+Disabling this because of YouTube
+#content {
+  background-color: var(--main-bg-color) !important; 
+} */
+
+.content {
+  background-color: var(--main-bg-color) !important; 
+}
+
 
 /* Github */
 #readme {
@@ -43,11 +57,16 @@ body.using-nav-vertical main.board-layout {
   border-style: none !important;
 }
 
-/* #content {
-  background-color: var(--main-bg-color) !important; 
-} */
-
 /* Medium */
 .c {
   background-color: var(--main-bg-color) !important; 
+}
+
+/* YouTube */
+ytd-page-manager {
+  background-color: var(--youtube-bg-color) !important; 
+}
+
+yt-formatted-string.content {
+  background-color: var(--youtube-bg-color) !important; 
 }
