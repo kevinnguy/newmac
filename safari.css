@@ -18,6 +18,10 @@ article {
   color: var(--main-text-color) !important;
 }
 
+main {
+  background-color: var(--main-bg-color) !important; 
+}
+
 /* General */
 
 /* 
@@ -27,6 +31,10 @@ Disabling this because of YouTube
 } */
 
 .content {
+  background-color: var(--main-bg-color) !important; 
+}
+
+.site-wrapper {
   background-color: var(--main-bg-color) !important; 
 }
 
