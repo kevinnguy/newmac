@@ -49,6 +49,14 @@ body.using-nav-vertical main.board-layout {
   background-color: rgb(45, 45, 45) !important;
 }
 
+.bg-white {
+  background-color: var(--main-bg-color) !important;
+}
+
+.bg-gray {
+  background-color: var(--main-bg-color) !important;
+}
+
 /* HackerNews */
 #hnmain {
   background-color: transparent !important;
@@ -77,4 +85,14 @@ ytd-page-manager {
 
 yt-formatted-string.content {
   background-color: var(--youtube-bg-color) !important; 
+}
+
+/* DuckDuckGo */
+.content-wrap {
+  background-color: var(--youtube-bg-color) !important; 
+}
+
+/* Amazon */
+#dp {
+  background-color: transparent !important;
 }
