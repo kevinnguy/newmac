@@ -3,10 +3,13 @@
 # Use this script when having a new Mac
 
 # Shows build time for Xcode
-defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+defaults -currentHost write -g com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 
 # Turn off hyperlink auditing
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2HyperlinkAuditingEnabled -bool false
+defaults -currentHost write -g com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2HyperlinkAuditingEnabled -bool false
+
+# Turn off font smoothing
+defaults -currentHost write -g AppleFontSmoothing -int 0
 
 # To bundle brew installs: brew bundle dump
 
