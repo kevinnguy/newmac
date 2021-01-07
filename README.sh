@@ -29,6 +29,9 @@ cp kevinnguy.zsh-theme ~/.oh-my-zsh/themes
 # Copy gitconfig 
 cp .gitconfig ~/
 
+# Copy tigrc
+cp .tigrc ~/
+
 # Copy rectangle config plist
 cp com.knollsoft.Rectangle.plist ~/Library/Preferences/
 

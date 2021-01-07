@@ -1,0 +1,7 @@
+bind generic j move-up
+bind generic k move-down
+bind main u move-page-up
+bind main p move-page-down
+bind stage u move-first-line
+bind stage p move-last-line
+bind stage <Enter> status-update
