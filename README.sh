@@ -35,6 +35,5 @@ cp .tigrc ~/
 # Copy rectangle config plist
 cp com.knollsoft.Rectangle.plist ~/Library/Preferences/
 
-# Install karabiner config in safari
-# karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kevinnguy/newmac/master/karabiner.json
-# karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kevinnguy/newmac/774726820cf71f959ab470b6fd01fd81815a593d/karabiner.json
+# Copy karabiner config 
+cp -R .config ~/
