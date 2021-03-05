@@ -577,7 +577,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": ";",
+                                    "key_code": "semicolon",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command",
@@ -600,7 +600,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": ";",
+                                    "key_code": "semicolon",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_command",
