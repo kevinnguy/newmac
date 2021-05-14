@@ -1,6 +1,4 @@
 export REACT_EDITOR=code
-export EDITOR=micro
-export VISUAL="$EDITOR"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -9,13 +7,17 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="kevinnguy"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(brew pod gem xcode heroku aws bundler git z)
+plugins=(brew pod gem xcode bundler git z)
 source $ZSH/oh-my-zsh.sh
 
 # configs
 export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=${PATH}:${ANDROID_HOME}/tools
-export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+export JAVA_HOME=$HOME/.sdkman/candidates/java/current
+export PATH=${JAVA_HOME}/bin:$PATH
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH="$PATH:`yarn global bin`"
 
 # use option-left and right to move word to word
@@ -77,3 +79,9 @@ alias paperhands="conda deactivate"
 # unset __conda_setup
 # <<< conda initialize <<<
 
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/knguy/.sdkman"
+[[ -s "/Users/knguy/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/knguy/.sdkman/bin/sdkman-init.sh"
