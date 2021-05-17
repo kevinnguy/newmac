@@ -14,7 +14,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 # To bundle brew installs: brew bundle dump
 
 # Install brew
-curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 brew bundle install
 brew cask cleanup
 
