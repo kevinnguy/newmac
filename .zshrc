@@ -9,7 +9,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="kevinnguy"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(brew pod gem xcode heroku aws bundler git z)
+plugins=(brew pod gem xcode bundler git z)
 source $ZSH/oh-my-zsh.sh
 
 # configs

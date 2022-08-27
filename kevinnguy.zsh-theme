@@ -1,7 +1,7 @@
 # vim:ft=zsh ts=2 sw=2 sts=2
 
 PROMPT='
-%{$fg_bold[red]%}%*%{$reset_color%} %{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) %{$fg[blue]%}$(conda_prompt_info)%{$reset_color%}
+%{$fg_bold[red]%}%*%{$reset_color%} %{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}$(git_prompt_info) %{$fg[yellow]%}$(conda_prompt_info)%{$reset_color%}
 $(random_emoji) '
 
 EMOJI=(😀 😃 😄 😁 😆 😅 😂 🤣 😊 😇 🙂 🙃 😉 😌 😍 😗 😙 😚 😋 😜 😝 😛 🤑 🤗 🤓 😎 🤡 🤠 😏 😒 😞 😔 😟 😕 🙁 😣 😖 😫 😩 😤 😠 😡 😶 😐 😑 😯 😦 😧 😮 😲 😵 😳 😱 😨 😰 😢 😥 🤤 😭 😓 😪 😴 🙄 🤔 🤥 😬 🤐 🤢 🤧 😷 🤒 🤕 😈 👿 👹 👺 💩 👻 💀 ☠️ 👽 👾 🤖 🎃 😺 😸 😹 😻 😼 😽 🙀 😿 😾 👐 🙌 👏 🙏 🤝 👍 👎 👊 ✊ 🤛 🤜 🤞 ✌️ 🤘 👌 👈 👉 👆 👇 ☝️ ✋ 🤚 🖐 🖖 👋 🤙 💪 🐶 🐱 🐭 🐹 🐰 🦊 🐻 🐼 🐨 🐯 🦁 🐮 🐷 🐽 🐸 🐵 🐔 🐧 🐦 🐤 🦄 🍏 🍎 🍐 🍊 🍋 🍌 🍉 🍇 🍓 🍈 🍒 🍍 🥝 🥑 🍅 🥒 🥕 🌽 🌶 🥔 🍠 🌰 🥜 🍯 🥐 🍞 🥖 🧀 🥚 🍳 🥓 🥞 🍤 🍗 🍖 🍕 🌭 🍔 🍟 🥙 🌮 🌯 🥗 🥘 🍝 🍜 🍲 🍥 🍣 🍱 🍛 🍚 🍙 🍘 🍢 🍡 🍧 🍨 🍦 🍰 🎂 🍮 🍭 🍬 🍫 🍿 🍩 🍪 🥛 🍼 ☕️ 🍵 🍶 🍺 🍻 🥂 🍷 🥃 🍸 🍹 🍾)
@@ -10,7 +10,7 @@ function random_emoji {
   echo -n "$EMOJI[$RANDOM%$#EMOJI+1]"
 }
 
-# Conda info
+# Conda
 function conda_prompt_info {
   if [ -n "$CONDA_DEFAULT_ENV" ] && [ "$CONDA_DEFAULT_ENV" != "base" ]; then
     echo -n "🐍 $CONDA_DEFAULT_ENV"
