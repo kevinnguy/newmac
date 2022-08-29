@@ -21,6 +21,7 @@
 	recurse = true
 [user]
 	name = Kevin Nguy
+	email = kevin.nguy@gemini.com
 [alias]
 	cm = commit -m
 	cam = !git add -A && git commit -am

@@ -53,16 +53,16 @@ alias gds="echoco 'git diff --abbrev-commit --oneline -U1 --cached --color --sta
 alias diff="echoco 'icdiff'; icdiff"
 
 # pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-eval "$(pyenv init -)"
+# export PATH="$HOME/.pyenv/bin:$PATH"
+# export PATH="/usr/local/bin:$PATH"
+# eval "$(pyenv init -)"
 
 # conda
-export PATH="$HOME/anaconda3/bin/:$PATH"
+# export PATH="$HOME/anaconda3/bin/:$PATH"
 
 # gamestonk
-alias gamestonk="conda activate gamestonk && python ~/github/gamestonk/terminal.py"
-alias paperhands="conda deactivate"
+# alias gamestonk="conda activate gamestonk && python ~/github/gamestonk/terminal.py"
+# alias paperhands="conda deactivate"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -83,5 +83,5 @@ alias paperhands="conda deactivate"
 export PATH="$HOME/.cargo/bin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/knguy/.sdkman"
-[[ -s "/Users/knguy/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/knguy/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="/Users/knguy/.sdkman"
+# [[ -s "/Users/knguy/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/knguy/.sdkman/bin/sdkman-init.sh"
