@@ -79,6 +79,7 @@ cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "zeplin"
+mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
 mas "iMovie", id: 408981434
