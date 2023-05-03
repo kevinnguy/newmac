@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="kevinnguy"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(brew pod gem xcode bundler git z)
+plugins=(brew pod gem xcode bundler git z zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # configs
