@@ -50,3 +50,6 @@ echo "✅ copied rectangle config settings"
 cp -R .config ~/
 echo "✅ copied karabiner settings"
 
+# Manual setup
+## Rectange
+## import RectangleConfig.json in the app
