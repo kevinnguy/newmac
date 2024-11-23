@@ -1,4 +1,4 @@
-export REACT_EDITOR=code
+export REACT_EDITOR=zed
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -52,36 +52,5 @@ alias gds="echoco 'git diff --abbrev-commit --oneline -U1 --cached --color --sta
 # diff
 alias diff="echoco 'icdiff'; icdiff"
 
-# pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
-eval "$(pyenv init -)"
-
-# conda
-export PATH="$HOME/anaconda3/bin/:$PATH"
-
-# gamestonk
-alias gamestonk="conda activate gamestonk && python ~/github/gamestonk/terminal.py"
-alias paperhands="conda deactivate"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/Users/nguy/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#    eval "$__conda_setup"
-# else
-#    if [ -f "/Users/nguy/anaconda3/etc/profile.d/conda.sh" ]; then
-#        . "/Users/nguy/anaconda3/etc/profile.d/conda.sh"
-#    else
-#        export PATH="/Users/nguy/anaconda3/bin:$PATH"
-#    fi
-# fi
-# unset __conda_setup
-# <<< conda initialize <<<
-
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/knguy/.sdkman"
-[[ -s "/Users/knguy/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/knguy/.sdkman/bin/sdkman-init.sh"
