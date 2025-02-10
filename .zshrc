@@ -1,4 +1,4 @@
-export REACT_EDITOR=zed
+export REACT_EDITOR=code
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="kevinnguy"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(brew pod gem xcode bundler git z zsh-autosuggestions)
+plugins=(brew z zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # configs
@@ -36,8 +36,8 @@ alias zshconfig="echoco 'open ~/.zshrc'; open ~/.zshrc"
 alias reload="echoco '. ~/.zshrc'; . ~/.zshrc"
 
 # ls
-alias ll="echoco 'ls -ahlo'; ls -ahlo"
-alias lld="echoco 'ls -adhlo */'; ls -adhlo */"
+alias ll="echoco 'ls -ahlo --color=auto'; ls -ahlo --color=auto"
+alias lld="echoco 'ls -adhlo  */'; ls -adhlo */"
 alias llr="echoco 'ls -ahloR'; ls -ahloR"
 alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 
@@ -54,3 +54,7 @@ alias diff="echoco 'icdiff'; icdiff"
 
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/kevinnguy/.lmstudio/bin"
+
