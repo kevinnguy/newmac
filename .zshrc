@@ -1,3 +1,7 @@
+zstyle ':omz:*' aliases no
+zstyle ':omz:update' mode auto
+zstyle ':omz:update' verbose minimal # only few lines
+
 export REACT_EDITOR=code
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
