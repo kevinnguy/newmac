@@ -39,12 +39,7 @@ echo "✅ copied gitconfig"
 
 # Copy tigrc
 cp .tigrc ~/
-echo "✅ copied tiger settings"
-
-
-# Copy rectangle config plist
-cp com.knollsoft.Rectangle.plist ~/Library/Preferences/
-echo "✅ copied rectangle config settings"
+echo "✅ copied tigrc settings"
 
 # Copy karabiner config 
 cp -R .config ~/
